@@ -1,0 +1,54 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color:gray;
+}
+#box{
+    width: 320px;
+    height: 520px;
+    background-color: white;
+    
+    margin-top:5px;
+    margin-left:100px;
+    margin-bottom:5px;
+    margin-right:50px;
+}
+#result{
+    height:120px;;
+}
+#keyboard{
+    height:400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align:center;
+    //border-radius: 50%;
+    font-size:20px;
+    font-weight:bold;  
+}
+.number{
+    background-color:white;
+    border-width: 1px;
+}
+.empty{
+    border-width: 0;
+    background-color:white;
+}
+.operator{
+    font-size:25px;
+    border-width: 1px;
+}        
+#history{
+    text-align:right;
+    height:20px;
+    margin:0 20px;
+    padding-top:20px;
+    font-size:15px;
+}
+#output{
+    float: right;
+    height: 60px;
+    font-size:30px;
+    margin:10px 20px;
+    
